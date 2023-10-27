@@ -1,0 +1,189 @@
+.categories-one {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.categories-two {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.categories-science {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 225px;
+  width: 225px;
+  background: rgb(203, 73, 94);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 3px 6px 0px rgba(0, 0, 0, 0.23);
+}
+.categories-science:hover {
+    box-shadow: 0px 0px 0px 2px rgb(237, 130, 148),
+      8px 8px 0px 0px rgb(237, 130, 148)
+  }
+.categories-science h1{
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    font-family: "Poppins";
+    text-shadow:2px 2px 0 #aaa;
+}
+
+.categories-tech {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 225px;
+  width: 225px;
+  background: rgb(229, 93, 9);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 3px 6px 0px rgba(0, 0, 0, 0.23);
+}
+.categories-tech:hover {
+  box-shadow: 0px 0px 0px 2px rgb(230, 152, 103),
+    8px 8px 0px 0px rgb(228, 149, 103);
+}
+.categories-tech h1{
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    font-family: "Poppins";
+    text-shadow:2px 2px 0 #aaa;
+}
+
+.categories-humanities {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 225px;
+  width: 225px;
+  background: rgb(37, 164, 5);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.23),
+    0px 3px 6px 0px rgba(0, 0, 0, 0.23);
+}
+.categories-humanities:hover {
+    box-shadow: 0px 0px 0px 2px rgb(153, 225, 134),
+      8px 8px 0px 0px rgb(153, 225, 134);
+  }
+  .categories-humanities h1{
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    font-family: "Poppins";
+    text-shadow:2px 2px 0 #aaa;
+}
+
+.categories-architecture {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 225px;
+  width: 225px;
+  background: rgb(204, 137, 50);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 3px 6px 0px rgba(0, 0, 0, 0.23);
+}
+.categories-architecture:hover {
+    box-shadow: 0px 0px 0px 2px rgb(228, 187, 135),
+      8px 8px 0px 0px rgb(228, 187, 135);
+  }
+  .categories-architecture h1{
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    font-family: "Poppins";
+    text-shadow:2px 2px 0 #aaa;
+}
+
+.categories-medical {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 225px;
+  width: 225px;
+  background: rgb(180, 9, 9);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 3px 6px 0px rgba(0, 0, 0, 0.23);
+}
+.categories-medical:hover {
+    box-shadow: 0px 0px 0px 2px rgb(216, 119, 119),
+      8px 8px 0px 0px rgb(216, 119, 119);
+  }
+  .categories-medical h1{
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    font-family: "Poppins";
+    text-shadow:2px 2px 0 #aaa;
+}
+
+.categories-philosophy {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 225px;
+  width: 225px;
+  background: rgb(3, 114, 3);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 3px 6px 0px rgba(0, 0, 0, 0.23);
+}
+.categories-philosophy:hover {
+    box-shadow: 0px 0px 0px 2px rgb(112, 191, 112),
+      8px 8px 0px 0px rgb(112, 191, 112);
+  }
+  .categories-philosophy h1{
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    font-family: "Poppins";
+    text-shadow:2px 2px 0 #aaa;
+}
+
+.categories-business {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 225px;
+  width: 225px;
+  background: rgb(221, 62, 221);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 3px 6px 0px rgba(0, 0, 0, 0.23);
+}
+.categories-business:hover {
+    box-shadow: 0px 0px 0px 2px rgb(222, 150, 222),
+      8px 8px 0px 0px rgb(222, 150, 222);
+  }
+  .categories-business h1{
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    font-family: "Poppins";
+    text-shadow:2px 2px 0 #aaa;
+}
+
+.categories-law {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 225px;
+  width: 225px;
+  background: indigo;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 3px 6px 0px rgba(0, 0, 0, 0.23);
+}
+.categories-law:hover {
+    box-shadow: 0px 0px 0px 2px rgb(173, 125, 206),
+      8px 8px 0px 0px rgb(173, 125, 206);
+  }
+  .categories-law h1{
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    font-family: "Poppins";
+    text-shadow:2px 2px 0 #aaa;
+}
+
+
+  
